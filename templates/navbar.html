@@ -1,0 +1,161 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{% block title %}{% endblock %} </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/INFORMACION.css">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body class="bg-black" >
+        {% block body%}
+        {% endblock %}
+        
+            <header>
+                <div class="logo">
+                    <a href=> <img src="{{ url_for('static', filename='img/logoynombre.png') }}"></a>
+                   
+    
+                </div>
+                <nav id="menu" >
+                    <ul class="navi">
+                        
+                        <li><a href="Index.html" style="color:#FFFFFF">Inicio</a></li>
+                    <li> <a href="Acercade.html" style="color:#FFFFFF">Acerca de</a></li>
+                    <li>  <a href="Servicios.html" style="color:#FFFFFF">Servicios</a></li>
+                    <li> <a href="Acercade.html" style="color:#FFFFFF">Acerca de</a></li>
+                   <li> <a href="NuestroSalon.html" style="color:#FFFFFF">Nuestro Salón</a></li>
+                    <li>  <a href="contactenos.html" style="color:#FFFFFF">Contáctenos</a></li>
+                     <li>  <a href="Informacion.html" style="color:#FFFFFF">Información </a></li>
+   
+                    </ul>
+                </nav> 
+            </header>  
+        <div id="div2" align="justify" >
+            <div class="container">
+    <section class="main row">
+        <article class="col-xs-12 col-sm-8 col-md-9 col-lg-9 p-4">
+            <h3>Historia de los salones de Belleza</h3>
+            <p>Primeramente en el antiguo egipto se cuidaba mucha la apariencia fisica pero no se teni lugar especifico para practicar estas actividades. tales como baños de leche, exfoliaciones de piel, maquillaje en el rostro, manicure, cortes de cabello entre otras cosas simbolicas a la epoca. <br>
+
+           En la Antigua grecia fue donde comenzaron a tener lugar en la sociedad y comenzo a partir de la expresiones artisticas y la vanidad adquirida gracias a la que se empezo a utilizar gracias a las que se empezo a utilizar grasa animal y mezclas de hierbas que se recolectaban para hacer cremas y maquillajes exclusivos para la clase alta.</p>
+            
+        </article>
+       
+    </section>
+    <div class="row m-1">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-left bg-secondary text-white p-4">
+            <a name="#aplicaciones1">
+                <h3 class="lead">Datos curiosos</h3>
+                <ul>
+                    <li>En la prehistoria el cabello se recortaba con piedras filosas</li>
+                    <li>Las pelucas tomaron lugar en el antigui egipto</li>
+                    <li>Las tijeras se inventaron en el siflo XIV.</li>
+                </ul>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-left bg-secondary text-white p-4">
+            <a name="#aplicaciones2">
+                <h3 class="lead">Datos curiosos</h3>
+                <ul>
+                    <li>En Grecia nacieron las escuelas de peluqueria</li>
+                    <li>Los esclavos eran los estilistas en Grecia</li>
+                    <li>En Roma las mujeres querian tener su cabello mas rubio.</li>
+                </ul>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-left bg-secondary text-white p-4">
+            <a name="#aplicaciones3">
+                <h3 class="lead">Datos Curiosos</h3>
+                <ul>
+                    <li>En la Edad Media las tunicas impidieron el desarrollo de la Peluquria</li>
+                 
+                </ul>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-left bg-secondary text-white p-4">
+            <a name="#aplicaciones4">
+                <h3 class="lead">Datos Curiosos</h3>
+                <ul>
+                    <li>La peluqueria fue primeramente utilizados por la clase alta</li>
+                    <li>La materia prima para los productos es la grasa animal</li>
+                    <li>Hoy en día los salones de belleza son un gran foco de economia.</li>
+                </ul>
+            </a>
+        </div>
+
+    </div>
+    
+</div>
+<footer>
+    <div class="container">
+        <h4>&copy; Copyright Manuela&Natalia <small>
+            Tendencias de Software</small></h4>
+        
+    </div>
+</footer>
+        </div>
+        <footer>
+            <div class="containerbody">
+                <div class="column1">
+                    <h2>
+                        Horario de atención
+                    </h2>
+                    <p>Martes a sábado de 7:00 am a 7:00pm<br>
+                     únicamente se atiende con cita previa </p>
+                </div>
+                <div class="column2">
+                        <h2>
+                        Redes sociales
+                        </h2>
+                        <div class="row">
+                            <a href="https://www.facebook.com/Peluqueria-Cuarzo-110436658252471"><img src="img/Red.Face.png"></a>
+                        <label>
+                            Síguenos en Facebook
+                        </label>
+                        </div>
+                        <div class="row">
+                            <a href="https://www.instagram.com/peliqueriacuarzo/"><img src="img/red.Ins.png"></a>
+                        <label>
+                            Síguenos en Instagram
+                        </label>
+                        </div>
+                        <div class="row">
+                            <a href="https://wa.me/+573006876065"><img src="img/Red.Whats.png"></a>
+                        <label>
+                            Escribenos al WhatsApp
+                        </label>
+                        </div>
+                </div>
+                <div class="column3">
+                    <h2>
+                        Contacto
+                    </h2>
+                    <p>
+                        Teléfonos: 583 29 23, 304 372 31 62<br>
+                        Dirección: Cra 33 # 47-67 Medellín <br>
+                        Correos: natalia.arboleda25@gmail.com<br>
+                         marlon.castaneda@correo.tdea.edu.co<br>
+                        manuela.munoz21@correo.tdea.edu.co
+                    </p>
+                </div>
+
+            </div>
+            <a text-align="center" href="informacion.html"style="color:#FFFFFF">Siguiente pagina</a>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

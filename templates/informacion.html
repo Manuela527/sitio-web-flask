@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+
+{% block title %}
+   {{super()}}
+   Bienvenido a mi portafolio
+{% endblock %}   
+
+
+{% block content %}
+    
+   {% if ip_usuario %}
+      <h1>" Hola ya tengo tu IP, y es esta : {{ip_usuario}} "</h1>
+    
+   {% else %}   
+      <a href="{{url_for('informacion')}}"> Crear Cookies</a>
+   
+   {% endif %}
+
+
+   <ul>
+       {% for item in items %}
+          <li>{{item}}</li>
+       {% endfor %}  
+   </ul>
+      
+   {% endblock %}
